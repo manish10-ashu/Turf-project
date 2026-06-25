@@ -21,6 +21,9 @@ export const authAPI = {
   register: (name, email, password, phone) => API.post('/api/auth/register', { name, email, password, phone }),
   getMe: () => API.get('/api/auth/me')
 };
+export const settingsAPI = {
+  getSettings: () => API.get('/api/admin/public-settings')
+};
 
 // Bookings endpoints
 export const bookingAPI = {

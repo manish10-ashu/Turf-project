@@ -43,6 +43,7 @@ router.delete(
   admin,
   deleteAllBookings
 );
+router.get('/public-settings', getSettings);
 router.get('/settings', protect, admin, getSettings);
 router.put('/settings', protect, admin, updateSettings);
 

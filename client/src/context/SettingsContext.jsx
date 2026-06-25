@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import { adminAPI } from "../services/api";
 
-const SettingsContext = createContext();
+import { settingsAPI } from "../services/api";
 
 export const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState({});
@@ -9,7 +9,7 @@ export const SettingsProvider = ({ children }) => {
 
 const fetchSettings = async () => {
   try {
-    const { data } = await adminAPI.getSettings();
+    const { data } = await settingsAPI.getSettings();
 
     if (data?.success) {
       setSettings({ ...data.settings }); // 🔥 IMPORTANT
@@ -17,6 +17,9 @@ const fetchSettings = async () => {
   } catch (err) {
     console.error(err);
   }
+   finally {
+    setLoading(false);
+   }
 };
   const updateSettingsLocal = (newSettings) => {
     setSettings(newSettings);
