@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '', // proxy configuration handles this locally
+  baseURL: import.meta.env.VITE_API_URL,
 });
 
 // Automatically inject JWT Token if it exists in localstorage
