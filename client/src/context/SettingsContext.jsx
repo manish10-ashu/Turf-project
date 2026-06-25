@@ -2,6 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 import { adminAPI } from "../services/api";
 
 import { settingsAPI } from "../services/api";
+const SettingsContext = createContext();
 
 export const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState({});
