@@ -16,16 +16,16 @@ const connectDB = require('./config/db');
 // Load environment variables
 dotenv.config();
 
-app.use(cors({
-  origin: "https://turf-project-eight.vercel.app",
-  credentials: true
-}));
+
 console.log("MONGO_URI =", process.env.MONGO_URI);
 
 async function startServer() {
   // Connect to Database first!
   await connectDB();
-
+  app.use(cors({
+  origin: "https://turf-project-eight.vercel.app",
+  credentials: true
+}));
   const app = express();
 
   // Security Middleware
