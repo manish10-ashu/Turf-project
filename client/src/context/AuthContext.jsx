@@ -19,11 +19,12 @@ export const AuthProvider = ({ children }) => {
       }
 
       try {
-        const { data } = await axios.get('/api/auth/me', {
-          headers: {
-            Authorization: `Bearer ${token}`
-          }
-        });
+       const { data } = await axios.get(
+           `${import.meta.env.VITE_API_URL}/api/auth/me`,
+            {
+              headers: {
+              Authorization: `Bearer ${token}`
+                } });
         if (data.success) {
           setUser(data.user);
         } else {
@@ -42,7 +43,10 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (email, password) => {
     try {
-      const { data } = await axios.post('/api/auth/login', { email, password });
+              const { data } = await axios.post(
+              `${import.meta.env.VITE_API_URL}/api/auth/login`,
+             { email, password }
+         );
       if (data.success) {
         localStorage.setItem('token', data.token);
         setUser({
@@ -64,12 +68,15 @@ export const AuthProvider = ({ children }) => {
 
   const register = async (name, email, password, phone) => {
     try {
-axios.post(`${import.meta.env.VITE_API_URL}/api/auth/register`, {
-  name,
-  email,
-  password,
-  phone
-});      if (data.success) {
+const { data } = await axios.post(
+  `${import.meta.env.VITE_API_URL}/api/auth/register`,
+  {
+    name,
+    email,
+    password,
+    phone
+  }
+);     if (data.success) {
         localStorage.setItem('token', data.token);
         setUser({
           _id: data._id,
