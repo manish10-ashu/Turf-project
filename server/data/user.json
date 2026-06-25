@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "2sueoakcq",
+    "createdAt": "2026-06-23T13:43:50.063Z",
+    "updatedAt": "2026-06-23T13:43:50.064Z",
+    "name": "Admin Manager",
+    "email": "admin@homeground.com",
+    "password": "$2b$10$gXaIBvREYCGdaMK7OAyPheNGa9nGm9pawwEl6nKumd4cbj1ZPc9R2",
+    "phone": "+91 9999999999",
+    "role": "admin"
+  },
+  {
+    "_id": "8lbcwuuft",
+    "createdAt": "2026-06-23T13:43:50.136Z",
+    "updatedAt": "2026-06-23T13:43:50.136Z",
+    "name": "Rahul Sharma",
+    "email": "rahul@gmail.com",
+    "password": "$2b$10$KcEcZhWPbk9YAXBJRxe.n.yggp//E5p6x2R9JcPEzQ5..EiOUpXxa",
+    "phone": "+91 9876543210",
+    "role": "user"
+  },
+  {
+    "_id": "xviash4kd",
+    "createdAt": "2026-06-23T13:44:57.318Z",
+    "updatedAt": "2026-06-23T13:44:57.318Z",
+    "name": "Test User",
+    "email": "test@example.com",
+    "password": "$2b$10$oDoBWaYMt6B9zvumBWc6zu7DVP9WVRT31StoUwUZ6yvsTdvdEGYpy",
+    "phone": "+91 9999999999",
+    "role": "user"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "_id": "wjonuc7tb",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "06:00 - 07:00",
+    "weekdayPrice": 1200,
+    "weekendPrice": 1500,
+    "isPopular": false,
+    "sport": "Both"
+  },
+  {
+    "_id": "ifucttf69",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "07:00 - 08:00",
+    "weekdayPrice": 1200,
+    "weekendPrice": 1500,
+    "isPopular": false,
+    "sport": "Both"
+  },
+  {
+    "_id": "eshvz5dxw",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "08:00 - 09:00",
+    "weekdayPrice": 1200,
+    "weekendPrice": 1500,
+    "isPopular": false,
+    "sport": "Both"
+  },
+  {
+    "_id": "z07dai3zy",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "09:00 - 10:00",
+    "weekdayPrice": 1400,
+    "weekendPrice": 1800,
+    "isPopular": false,
+    "sport": "Both"
+  },
+  {
+    "_id": "8h9xyskx1",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "10:00 - 11:00",
+    "weekdayPrice": 1400,
+    "weekendPrice": 1800,
+    "isPopular": false,
+    "sport": "Both"
+  },
+  {
+    "_id": "nhmaqrwgf",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "11:00 - 12:00",
+    "weekdayPrice": 1400,
+    "weekendPrice": 1800,
+    "isPopular": false,
+    "sport": "Both"
+  },
+  {
+    "_id": "eghilw3cf",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "12:00 - 13:00",
+    "weekdayPrice": 1400,
+    "weekendPrice": 1800,
+    "isPopular": false,
+    "sport": "Both"
+  },
+  {
+    "_id": "fdjsh2kh5",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "13:00 - 14:00",
+    "weekdayPrice": 1400,
+    "weekendPrice": 1800,
+    "isPopular": false,
+    "sport": "Both"
+  },
+  {
+    "_id": "73fgtayjr",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "14:00 - 15:00",
+    "weekdayPrice": 1400,
+    "weekendPrice": 1800,
+    "isPopular": false,
+    "sport": "Both"
+  },
+  {
+    "_id": "kvro8nqgi",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "15:00 - 16:00",
+    "weekdayPrice": 1400,
+    "weekendPrice": 1800,
+    "isPopular": false,
+    "sport": "Both"
+  },
+  {
+    "_id": "q4nfsudj6",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "16:00 - 17:00",
+    "weekdayPrice": 1400,
+    "weekendPrice": 1800,
+    "isPopular": false,
+    "sport": "Both"
+  },
+  {
+    "_id": "m1fv4shxk",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "17:00 - 18:00",
+    "weekdayPrice": 1600,
+    "weekendPrice": 2000,
+    "isPopular": true,
+    "sport": "Both"
+  },
+  {
+    "_id": "mqjpebdfh",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "18:00 - 19:00",
+    "weekdayPrice": 1600,
+    "weekendPrice": 2000,
+    "isPopular": true,
+    "sport": "Both"
+  },
+  {
+    "_id": "dvr6kwydm",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "19:00 - 20:00",
+    "weekdayPrice": 1600,
+    "weekendPrice": 2000,
+    "isPopular": true,
+    "sport": "Both"
+  },
+  {
+    "_id": "6wpoxvlbr",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "20:00 - 21:00",
+    "weekdayPrice": 1600,
+    "weekendPrice": 2000,
+    "isPopular": true,
+    "sport": "Both"
+  },
+  {
+    "_id": "i72lavkfm",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "21:00 - 22:00",
+    "weekdayPrice": 1600,
+    "weekendPrice": 2000,
+    "isPopular": true,
+    "sport": "Both"
+  },
+  {
+    "_id": "ddfawe0u6",
+    "createdAt": "2026-06-23T13:43:50.138Z",
+    "updatedAt": "2026-06-23T13:43:50.138Z",
+    "timeSlot": "22:00 - 23:00",
+    "weekdayPrice": 1400,
+    "weekendPrice": 1800,
+    "isPopular": false,
+    "sport": "Both"
+  }
+]

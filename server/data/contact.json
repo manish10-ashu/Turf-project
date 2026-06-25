@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "0o5d8a92q",
+    "createdAt": "2026-06-05T18:11:17.628Z",
+    "updatedAt": "2026-06-05T18:11:17.628Z",
+    "name": "Test User",
+    "email": "test@example.com",
+    "phone": "+91 9999999990",
+    "subject": "Inquiry about turf booking",
+    "message": "Hello, I wanted to inquire about block bookings for the weekend.",
+    "isRead": false
+  }
+]

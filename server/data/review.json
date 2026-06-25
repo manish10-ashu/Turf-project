@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "4bjfph5om",
+    "createdAt": "2026-06-23T13:43:50.139Z",
+    "updatedAt": "2026-06-23T13:43:50.139Z",
+    "name": "Aman Negi",
+    "rating": 5,
+    "comment": "Great quality turf! The lighting is fantastic for night matches. Clean washrooms and friendly staff.",
+    "isApproved": true
+  },
+  {
+    "_id": "kuuwinm2o",
+    "createdAt": "2026-06-23T13:43:50.139Z",
+    "updatedAt": "2026-06-23T13:43:50.139Z",
+    "name": "Pooja Rawat",
+    "rating": 4,
+    "comment": "Very easy to book and the pricing is reasonable. Best turf in Dehradun for small sided football!",
+    "isApproved": true
+  },
+  {
+    "_id": "zs5btafvv",
+    "createdAt": "2026-06-23T13:43:50.139Z",
+    "updatedAt": "2026-06-23T13:43:50.139Z",
+    "name": "Vikram Singh",
+    "rating": 5,
+    "comment": "Awesome facility. The bounce and turf quality is top tier. Playing box cricket here is extremely fun.",
+    "isApproved": true
+  }
+]
