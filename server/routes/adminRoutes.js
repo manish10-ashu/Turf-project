@@ -14,7 +14,7 @@ const {
   getSettings,
 updateSettings
 } = require('../controllers/adminController');
-
+router.get('/public-settings', getSettings);
 // Secure all routes below to protect + admin
 router.use(protect);
 router.use(admin);
@@ -43,7 +43,7 @@ router.delete(
   admin,
   deleteAllBookings
 );
-router.get('/public-settings', getSettings);
+
 router.get('/settings', protect, admin, getSettings);
 router.put('/settings', protect, admin, updateSettings);
 
